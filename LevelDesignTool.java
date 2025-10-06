@@ -28,7 +28,7 @@ class ForestLevel implements GameLevel {
 
     @Override
     public void showInfo() {
-        System.out.println("🌲 Forest Level");
+        System.out.println(" Forest Level");
         System.out.println("Terrain: " + terrain);
         System.out.println("Obstacles: " + obstacles);
         System.out.println("Enemies: " + enemies);
@@ -68,7 +68,7 @@ class DesertLevel implements GameLevel {
 
     @Override
     public void showInfo() {
-        System.out.println("🏜️ Desert Level");
+        System.out.println("Desert Level");
         System.out.println("Terrain: " + terrain);
         System.out.println("Obstacles: " + obstacles);
         System.out.println("Enemies: " + enemies);
